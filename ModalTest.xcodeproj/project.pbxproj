@@ -21,6 +21,7 @@
 		00B151D7187FA9060036182C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B151B9187FA9060036182C /* UIKit.framework */; };
 		00B151DF187FA9060036182C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00B151DD187FA9060036182C /* InfoPlist.strings */; };
 		00B151E1187FA9060036182C /* ModalTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B151E0187FA9060036182C /* ModalTestTests.m */; };
+		00B151EC187FAC6B0036182C /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B151EB187FAC6B0036182C /* LogInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		00B151DC187FA9060036182C /* ModalTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalTestTests-Info.plist"; sourceTree = "<group>"; };
 		00B151DE187FA9060036182C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00B151E0187FA9060036182C /* ModalTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalTestTests.m; sourceTree = "<group>"; };
+		00B151EA187FAC6B0036182C /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogInViewController.h; path = ../LogInViewController.h; sourceTree = "<group>"; };
+		00B151EB187FAC6B0036182C /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogInViewController.m; path = ../LogInViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		00B151BB187FA9060036182C /* ModalTest */ = {
 			isa = PBXGroup;
 			children = (
+				00B151EA187FAC6B0036182C /* LogInViewController.h */,
+				00B151EB187FAC6B0036182C /* LogInViewController.m */,
 				00B151C4187FA9060036182C /* AppDelegate.h */,
 				00B151C5187FA9060036182C /* AppDelegate.m */,
 				00B151C7187FA9060036182C /* Main.storyboard */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B151EC187FAC6B0036182C /* LogInViewController.m in Sources */,
 				00B151CC187FA9060036182C /* ViewController.m in Sources */,
 				00B151C6187FA9060036182C /* AppDelegate.m in Sources */,
 				00B151C2187FA9060036182C /* main.m in Sources */,
